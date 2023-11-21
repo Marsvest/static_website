@@ -3,75 +3,22 @@
 <head>  
   <title>Semikitten's website</title>
   <script src="jquery-3.7.1.min.js"></script>
-
-  <style>
-    .titles {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: rgb(45, 39, 39);
-      color: gold;
-    }
-    #element-below {
-      position: absolute;
-      top: calc(50% + 50px);
-      left: 50%;
-      transform: translateX(-50%);
-      padding: 10px;
-    }
-    #social_div {
-      position: absolute;
-      top: calc(50% + 120px);
-      left: 50%;
-      transform: translateX(-50%);
-      padding: 10px;
-    }
-    #mainTitle {
-      font-size: 280%;
-    }
-    body{
-      display:block; 
-      width:500px; 
-      height:250px;
-      background: linear-gradient(270deg, #a1058f, #7941df, #f0c506, #1802de);
-      background-size: 800% 800%;
-
-      -webkit-animation: AnimationName 30s ease infinite;
-      -moz-animation: AnimationName 30s ease infinite;
-      animation: AnimationName 30s ease infinite;
-}
-
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}    
-  </style>
+  <link rel="stylesheet" href="css_style/animation.css">
+  <link rel="stylesheet" href="css_style/styles.css">
 </head>
 <body>
   <div id="gradient-background"></div>
   <div id="mainTitle", class="titles">Semikitten123</div>
   <div id="element-below", class="titles">Student, Seeker, Creator</div>
-  <div id="social_div" class="titles">
-    <img src="icons/vk.png" alt="Description of Image 1" width="40">
-    <img src="icons/vk.png" alt="Description of Image 2" width="40">
+  <div id="social_div" class="icon-container">
+    <a href="https://vk.com/miroslavonelove" target="_blank">
+    <img src="icons/vk.png" alt="vk icon" width="40" height="40"></a>
+    
+    <a href="https://t.me/semikitten123" target="_blank">
+      <img src="icons/telegram.png" alt="vk icon" width="40" height="40"></a>
+
+    <a href="https://github.com/semikitten123?tab=repositories" target="_blank">
+      <img src="icons/github.png" alt="vk icon" width="40" height="40"></a>
 </div>
 
 <script>
@@ -80,3 +27,5 @@
 
 </body>
 </html>
+
+<!-- TODO: Format all the code -->
