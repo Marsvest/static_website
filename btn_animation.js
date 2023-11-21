@@ -5,8 +5,6 @@ function btn_click(btn_id) {
         $(this).animate({ 
           rotate: '+=360deg' 
         }, 1000);
-        
-        // Use switch with break statements
         switch(btn_id) {
           case "#git_btn":
             window.location.href = "https://github.com/semikitten123?tab=repositories";
