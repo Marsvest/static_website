@@ -5,6 +5,9 @@
   transform: translate(-50%, -50%);
   background-color: rgb(45, 39, 39);
   color: gold;
+  border: 2px solid #ccc; /* толщина и цвет границы */
+  padding: 10px; /* внутренний отступ */
+  border-radius: 100px; /* радиус скругления углов */
   }
 #element-below {
   position: absolute;
