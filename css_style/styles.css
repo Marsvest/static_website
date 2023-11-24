@@ -14,6 +14,10 @@ body {
   font-family: "Arial", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 0;
+}
+
 
 header {
   box-sizing: border-box;
@@ -85,8 +89,4 @@ p {
   margin-left: 7px;
   margin-right: 7px;
   margin-top: 20px;
-}
-
-#btn228{
-  size: 100px;
 }
